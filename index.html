@@ -1,0 +1,332 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <script src="https://kit.fontawesome.com/bc6e2fcd72.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&family=PT+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+ 
+  <header class="site-header">
+    <div class="hero">
+      <div class="contenido-header">
+        <nav class="redes-sociales">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </nav>
+        <div class="informacion-evento contenedor">
+          <div class="clearfix">
+            <p class="fecha"><i class="far fa-calendar-alt"></i> 10-12 Dic</p>
+            <p class="ciudad"><i class="fas fa-map-marker-alt"></i> Bogotá - Colombia</p>
+          </div>
+          <h1 class="nombre-sitio">gdlwebcamp</h1>
+          <p class="slogan">La mejor conferencia de <span>diseño web</span></p>
+        </div><!--Información Evento-->
+      </div> <!--Contenido Header-->
+    </div> <!--Hero-->
+  </header>
+
+  <div class="barra clearfix">
+    <div class="contenedor">
+      <div class="logo">
+        <img src="img/logo.svg" alt="Logo">
+      </div>
+
+      <div class="menu-movil">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="navegacion-principal clearfix">
+        <a href="#">Conferencia</a>
+        <a href="#">Calendario</a>
+        <a href="#">Invitados</a>
+        <a href="registro.html">Reservaciones</a>
+      </nav>
+    </div><!--Contenedor-->
+  </div><!--Barra-->
+
+  <section class="seccion contenedor">
+    <h2>La mejor conferencia de diseño Web en español</h2>
+    <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+  </section><!--SECCION-->
+
+  <section class="programa">
+
+    <div class="contenedor-video">
+      <video muted autoplay loop poster="img/bg-talleres.jpg">
+        <source src="video/video.mp4" type="video/mp4">
+        <source src="video/video.webm" type="video/webm">
+        <source src="video/video.ogv" type="video/ogv">
+      </video>
+    </div><!--CONTENEDOR VIDEO -->
+
+    <div class="contenedor-programa">
+      <div class="contenedor">
+
+        <div class="programa-evento">
+          <h2>Programa del Evento</h2>
+          <nav class="menu-programa">
+            <a href="#talleres"><i class="fas fa-code"></i>Talleres</a>
+            <a href="#conferencias"><i class="fas fa-comments"></i>Conferencias</a>
+            <a href="#seminarios"><i class="fas fa-landmark"></i>Seminarios</a>
+          </nav>
+        
+      
+          <div id="talleres" class="info-curso ocultar clearfix">
+            <div class="detalle-evento">
+              <h3>HTML5,  CSS3 Y JAVASCRIPT</h3>
+              <p><i class="far fa-clock"></i> 16.00 h</p>
+              <p><i class="fas fa-calendar-alt"></i> 10 de Dic</p>
+              <p><i class="fas fa-user"></i> Jhonny Alejandro Ospina</p>
+            </div>
+            <div class="detalle-evento">
+                <h3>RESPONSIVE WEB DESIGN</h3>
+                <p><i class="far fa-clock"></i> 20.00 h</p>
+                <p><i class="fas fa-calendar-alt"></i> 10 de Dic</p>
+                <p><i class="fas fa-user"></i> Jhonny Alejandro Ospina</p>
+            </div>
+            <a href="#" class="boton float-right">Ver todos</a>
+          </div><!--TALLERES-->
+        </div> <!--PROGRAMA EVENTO-->
+      </div><!--CONTENEDOR-->
+    </div><!--CONTENIDO DEL PROGRAMA-->
+  </section> <!--PROGRAMA-->
+
+  <section class="invitados contenedor seccion">
+    <h2>Nuestros Invitados</h2>
+   <ul class="lista-invitados clearfix">
+     <li>
+       <div class="invitado">
+         <img src="img/invitado1.jpg" alt="Imagen Invitado 1">
+         <p>Rafael Bautista</p>
+       </div>
+     </li>
+     <li>
+      <div class="invitado">
+        <img src="img/invitado2.jpg" alt="Imagen Invitado 2">
+        <p>Shari Herrera</p>
+      </div>
+    </li>
+    <li>
+      <div class="invitado">
+        <img src="img/invitado3.jpg" alt="Imagen Invitado 3">
+        <p>Gregorio Sanchez</p>
+      </div>
+    </li>
+    <li>
+      <div class="invitado">
+        <img src="img/invitado4.jpg" alt="Imagen Invitado 4">
+        <p>Susana Rivera</p>
+      </div>
+    </li>
+    <li>
+      <div class="invitado">
+        <img src="img/invitado5.jpg" alt="Imagen Invitado 5">
+        <p>Jarol Garcia</p>
+      </div>
+    </li>
+    <li>
+      <div class="invitado">
+        <img src="img/invitado6.jpg" alt="Imagen Invitado 6">
+        <p>Susan Sanchez</p>
+      </div>
+    </li>
+   </ul>
+  </section>
+
+  <div class="contador parallax">
+    <div class="contenedor">
+      <ul class="resumen-evento clearfix">
+        <li><p class="numero">6</p>Invitados</li>
+        <li><p class="numero">15</p>Talleres</li>
+        <li><p class="numero">3</p>Días</li>
+        <li><p class="numero">9</p>Conferencias</li>
+      </ul>
+    </div>
+  </div>
+
+  <section class="precios seccion">
+    <h2>Precios</h2>
+    <div class="contenedor">
+      <ul class="lista-precios clearfix">
+        <li>
+          <div class="tabla-precio">
+            <h3>Pase por día</h3>
+            <p class="numero">$30</p>
+            <ul>
+              <li>Bocadillos Gratis</li>
+              <li>Todas las Conferencias</li>
+              <li>Todos los Talleres</li>
+            </ul>
+            <a href="#" class="boton hollow">Comprar</a>
+          </div>
+        </li>
+
+        <li>
+          <div class="tabla-precio">
+            <h3>Todos los días</h3>
+            <p class="numero">$50</p>
+            <ul>
+              <li>Bocadillos Gratis</li>
+              <li>Todas las Conferencias</li>
+              <li>Todos los Talleres</li>
+            </ul>
+            <a href="#" class="boton hollow">Comprar</a>
+          </div>
+        </li>
+
+        <li>
+          <div class="tabla-precio">
+            <h3>Pase por 2 días</h3>
+            <p class="numero">$45</p>
+            <ul>
+              <li>Bocadillos Gratis</li>
+              <li>Todas las Conferencias</li>
+              <li>Todos los Talleres</li>
+            </ul>
+            <a href="#" class="boton hollow">Comprar</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div id="mapa" class="mapa">
+    
+  </div>
+
+  <section class="seccion">
+    <h2>Testimoniales</h2>
+    <div class="testimoniales contenedor clearfix">
+      <div class="testimonial">
+        <blockquote>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <footer class="info-testimonial clearfix">
+            <img src="img/testimonial.jpg" alt="imagen testimonial">
+            <cite>Oswaldo Aponte Escobedo<span> Diseñador en @prisa</span></cite>
+          </footer>
+        </blockquote>
+      </div> <!--TESTIMONIAL-->
+
+      <div class="testimonial">
+        <blockquote>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <footer class="info-testimonial clearfix">
+            <img src="img/testimonial.jpg" alt="imagen testimonial">
+            <cite>Oswaldo Aponte Escobedo<span> Diseñador en @prisa</span></cite>
+          </footer>
+        </blockquote>
+      </div> <!--TESTIMONIAL-->
+
+      <div class="testimonial">
+        <blockquote>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+          <footer class="info-testimonial clearfix">
+            <img src="img/testimonial.jpg" alt="imagen testimonial">
+            <cite>Oswaldo Aponte Escobedo<span> Diseñador en @prisa</span></cite>
+          </footer>
+        </blockquote>
+      </div> <!--TESTIMONIAL-->
+    </div> 
+  </section>
+
+  <div class="newsletter parallax">
+    <div class="contenido contenedor">
+      <p>Registrate al newsletter</p>
+      <h3>GDLWEBCAM</h3>
+      <a href="#" class="boton transparente">Registro</a>
+    </div>
+  </div> <!--Nesletter-->
+
+  <div class="seccion">
+    <h2>Faltan</h2>
+    <div class="cuenta-regresiva">
+      <ul class="contenedor clearfix">
+        <li><p class="numero">80</p>Días</li>
+        <li><p class="numero">15</p>Horas</li>
+        <li><p class="numero">5</p>Minutos</li>
+        <li><p class="numero">30</p>Segundos</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="contenedor clearfix">
+      <div class="footer-informacion">
+        <h3>Sobre <span>gdlwebcamp</span></h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+      </div>
+      <div class="footer-informacion">
+        <h3>Ultimos <span>tweets</span></h3>
+        <ul>
+          <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</li>
+          <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</li>
+          <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.</li>
+        </ul>
+      </div>
+      <div class="footer-informacion">
+        <h3>Redes <span>sociales</span></h3>
+        <nav class="redes-sociales">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-pinterest-p"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </nav>
+      </div>
+    </div>
+
+    <p class="copyright">Todos los derechos reservados &copy;</p>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+  <script src="js/main.js"></script>
+  
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
